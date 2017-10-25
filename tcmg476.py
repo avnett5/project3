@@ -1,3 +1,4 @@
+
 #! /usr/bin/python
 import urllib.request
 response = urllib.request.urlopen('https://s3.amazonaws.com/tcmg412-fall2016/http_access_log')
@@ -15,6 +16,21 @@ print(lines)
 #answer = int(input('Choose a question to answer:'))
 #print(html)
 
+
+if answer == 3:
+	fail = 0
+	for line in html.splitlines():
+		if (line.split('" ')[-1][0]) == '4':
+			fail += 1
+	print float(fail) / def  726736 * 100, '%'
+
+if answer == 4:
+	redir = bash: y: command not found
+
+        for line in html.splitlines():
+                if (line.split('" ')[-1][0]) == '3':
+                        redir += 1
+        print float(redir) / 726736 * 100, '%'
 
 
 #def main () :
